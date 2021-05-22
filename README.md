@@ -1,9 +1,9 @@
 # Peter Moss Acute Myeloid & Lymphoblastic Leukemia AI Research Project
-## Acute Myeloid Leukemia Tensorflow 2020
+## Acute Myeloid Leukemia Classifier 2021
 
-![Acute Lymphoblastic Leukemia Tensorflow 2020](Media/Images/Peter-Moss-Acute-Myeloid-Lymphoblastic-Leukemia-Research-Project.png)
+![Acute Myeloid Leukemia Classifier 2021](assets/images/acute-myeloid-leukemia-classifier-2021.jpg)
 
-[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.0.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.0.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-0.1.0-blue.svg)](https://github.com/AMLResearchProject/ALL-FastAI-2019/tree/0.1.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
+[![CURRENT RELEASE](https://img.shields.io/badge/CURRENT%20RELEASE-0.0.0-blue.svg)](https://github.com/AMLResearchProject/Acute-Myeloid-Leukemia-Classifier-2021/tree/0.0.0) [![UPCOMING RELEASE](https://img.shields.io/badge/CURRENT%20DEV%20BRANCH-1.0.0-blue.svg)](https://github.com/AMLResearchProject/Acute-Myeloid-Leukemia-Classifier-2021/tree/1.0.0) [![Contributions Welcome!](https://img.shields.io/badge/Contributions-Welcome-lightgrey.svg)](CONTRIBUTING.md)  [![Issues](https://img.shields.io/badge/Issues-Welcome-lightgrey.svg)](issues) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
 &nbsp;
 
@@ -12,7 +12,6 @@
 - [Introduction](#introduction)
 - [DISCLAIMER](#disclaimer)
 - [Getting Started](#getting-started)
-- [Projects](#projects)
 - [Contributing](#contributing)
   - [Contributors](#contributors)
 - [Versioning](#versioning)
@@ -22,17 +21,22 @@
 &nbsp;
 
 # Introduction
-A Tensorflow 2 project based on the research outlined in Human-level recognition of blast cells in the [Acute myeloid leukemia with convolutional neural networks paper](https://www.biorxiv.org/content/10.1101/564039v1.full.pdf) by Christian Matek, Simone Schwarz, Karsten Spiekermann, and Carsten Marr.
+[Acute Myeloid Leukemia (AML)](https://www.leukemiaairesearch.com/research/leukemia) is a cancer of the blood cells in the Myeloid blood cell lineage. AML is caused by abnormal Myeloid Blasts, or Myeloblasts, produced by the Myeloid progenitors in the bone marrow. Myeloblasts normally develop into healthy red and white blood cells, and platelets which help stop bleeding by forming clots.
+
+Early detection of AML remains an unsolved problem. Our [first research project](https://www.leukemiaairesearch.com/research/project/aml-all-ai-research-project) began in 2018 due to Acute Myeloid Leukemia being missed in a routine blood test one month before Peter Moss was diagnosed as terminal.  Due to the lack of available datasets we have not been able to work on classifiers for AML.
+
+This project will be our first Acute Myeloid Leukemia project with the goals of developing a Convolutional Neural Networks based on the research proposed in [Human-level recognition of blast cells in acute myeloid leukemia with convolutional neural networks](https://www.biorxiv.org/content/10.1101/564039v1.full.pdf) by Matek, C., Schwarz, S, Spiekermann, K., Marr, C. CapsNets. The project uses the [Single-cell Morphological Dataset of Leukocytes from AML Patients and Non-malignant Controls (AML-Cytomorphology_LMU)](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080958#61080958bcab02c187174a288dbcbf95d26179e8), a dataset comprised of 18,365 single cell images from peripheral blood smears from 100 AML positive patients and 100 AML negative patients.
+
 
 &nbsp;
 
 # DISCLAIMER
 
-This project should be used for research purposes only. The purpose of the project is to show the potential of Artificial Intelligence for medical support systems such as diagnosis systems.
+These projects should be used for research purposes only. The purpose of the projects is to show the potential of Artificial Intelligence for medical support systems such as diagnosis systems.
 
-This project is not meant to be an alternative to professional medical diagnosis.
+Although the classifier is accurate and shows good results both on paper and in real world testing, it is not meant to be an alternative to professional medical diagnosis.
 
-Developers that have contributed to this repository have experience in using Artificial Intelligence for detecting certain types of cancer. They are not a doctors, medical or cancer experts.
+Salvatore Raieli is a bioinformatician researcher and PhD in Immunology, but does not work in medical diagnosis.
 
 Please use this system responsibly.
 
@@ -40,7 +44,7 @@ Please use this system responsibly.
 
 # Getting Started
 
-To get started follow the [installation guide](Documentation/Installation.md) to find out how to clone the repository.
+To get started follow the [getting started guide](documentation/getting-started.md) to find out how to fork the repository.
 
 &nbsp;
 
@@ -52,7 +56,7 @@ Please read the [CONTRIBUTING](CONTRIBUTING.md "CONTRIBUTING") document for a fu
 
 ## Contributors
 
-- [Adam Milton-Barker](https://www.leukemiaresearchassociation.ai/team/adam-milton-barker "Adam Milton-Barker") - [Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociacion De Investigation En Inteligencia Artificial Para La Leucemia Peter Moss") President & Lead Developer, Sabadell, Spain
+- [Adam Milton-Barker](https://www.leukemiaairesearch.com/association/volunteers/adam-milton-barker "Adam Milton-Barker") - [Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss](https://www.leukemiaresearchassociation.ai "Asociación de Investigacion en Inteligencia Artificial Para la Leucemia Peter Moss") President/Founder & Lead Developer, Sabadell, Spain
 
 &nbsp;
 

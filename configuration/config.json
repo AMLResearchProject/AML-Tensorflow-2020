@@ -1,0 +1,49 @@
+{
+    "agent": {
+        "cores": 8,
+        "params": [
+            "train",
+            "classify",
+            "server",
+            "classify_http",
+            "classify_openvino",
+            "server_openvino",
+            "classify_openvino_http"
+        ]
+    },
+    "data": {
+        "dim": 100,
+        "file_type": ".jpg",
+        "labels": [0, 1],
+        "rotations": 10,
+        "seed": 2,
+        "split": 0.3,
+        "test": "model/data/test",
+        "test_data": [],
+        "train_dir": "model/data/train",
+        "valid_types": []
+    },
+    "model": {
+        "device": "CPU",
+        "freezing_log_dir": "model/freezing",
+        "frozen": "frozen.pb",
+        "ir": "model/ir/frozen.xml",
+        "model": "model/model.json",
+        "saved_model_dir": "model",
+        "weights": "model/weights.h5"
+    },
+    "train": {
+        "batch": 100,
+        "decay_adam": 1e-6,
+        "epochs": 150,
+        "learning_rate_adam": 1e-4,
+        "val_steps": 10
+    },
+    "rpi4": {
+        "freezing_log_dir": "model/freezing",
+        "frozen": "frozen.pb",
+        "ir": "model/ir/frozen.xml",
+        "inScaleFactor": 0.007843,
+        "meanVal": 0
+    }
+}
