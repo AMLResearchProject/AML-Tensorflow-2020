@@ -36,7 +36,7 @@ These projects should be used for research purposes only. The purpose of the pro
 
 Although the classifier is accurate and shows good results both on paper and in real world testing, it is not meant to be an alternative to professional medical diagnosis.
 
-Salvatore Raieli is a bioinformatician researcher and PhD in Immunology, but does not work in medical diagnosis.
+Developers that have contributed to this repository have experience in using Artificial Intelligence for detecting certain types of cancer. They are not doctors, medical or cancer experts.
 
 Please use this system responsibly.
 
